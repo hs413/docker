@@ -7,4 +7,7 @@ docker-compose up -d server php mysql
 
 docker-compose up -d --build server
 
+# artisan 실행
+docker-compose run --rm artisan migrate
+
 ```
